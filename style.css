@@ -103,10 +103,13 @@ hr{
 }
 .blog{
     display: flex;
+    
+
 }
 .blog img{
     width: 224px;
     height: 127px;
+    margin-right: 16px;
 }
 .author{
     color: #9F9F9F;
