@@ -1,11 +1,13 @@
+/* add google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
+/* common */
 body{
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
     margin:0;
     padding:0px;
 }
+/* header */
 nav{
     width:100%;
     height: 94px;
@@ -14,6 +16,7 @@ nav{
     display: flex;
     
 }
+/* nav right */
 .nav-right{
    display: flex;
    justify-content: center;
@@ -29,6 +32,7 @@ nav{
     font-size: 24px;
     margin-left: 16px;
 }
+/* nav left */
 .nav-left{
     display: flex;
     align-items: center;
@@ -48,6 +52,7 @@ nav{
     height: 51px;
   
 }
+/* main body */
 main{
     display: flex;
     justify-content: center;
@@ -60,9 +65,10 @@ main{
     border-radius: 5px;
     padding:30px;
     background: #FFFFFF;
-border-radius: 5px;
-margin-top: 14px;
+    border-radius: 5px;
+    margin-top: 14px;
     }
+    /* Top Players */
   .section-tittle{
     color: #562EFF;
     font-size: 24px;
@@ -95,6 +101,7 @@ hr{
     margin-top:30px;
     margin-bottom: 30px;
 }
+/* top blogs */
 .blogs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -103,7 +110,7 @@ hr{
 }
 .blog{
     display: flex;
-    
+
 
 }
 .blog img{
@@ -119,6 +126,7 @@ span{
     color: #562EFF;
     font-size: 16px;
 }
+/* courses */
 .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -132,8 +140,8 @@ span{
 }
 .banner img{
     width: 266px;
-height: 141px;
-width: 100%;
+    height: 141px;
+    width: 100%;
 
 }
 .fa-star.filled{
@@ -146,6 +154,9 @@ opacity: 0.25;
 .course-info{
     display: flex;
     justify-content: space-between;
+}
+.rating{
+    color:#AEAEAE;
 }
 .course-duration{
     background: #FEE5DF;
